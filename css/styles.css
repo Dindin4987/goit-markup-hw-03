@@ -32,6 +32,27 @@ button:hover {
     text-decoration: none;
 }
 
+.container {
+    width:1158px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px
+}
+
+.main-nav {
+    list-style: none;
+        display: flex;
+        gap: 40px
+}
+
+.main-header-ctas {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 156px;
+}
+
 .ctas-link {
     text-decoration: none;
     color: var(--SLATE, #434455);
