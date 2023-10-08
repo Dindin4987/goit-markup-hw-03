@@ -8,10 +8,9 @@ h1 {
     line-height: 60px;
     letter-spacing: 1.12px;
     background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
+    margin-top: 0px;
     padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 h1 > button {
@@ -19,6 +18,8 @@ h1 > button {
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color:white;
+    padding: 16px 32px;
+    font-size: 16px;
 }
 
 button:hover {
@@ -33,24 +34,65 @@ button:hover {
 }
 
 .container {
-    width:1158px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 40px
+    justify-content: space-between;
+    height: 72px;
 }
 
 .main-nav {
     list-style: none;
         display: flex;
-        gap: 40px
+        gap: 40px;
+        margin-left: 156px;
+        align-items: center;
+        height: 72px;
+        margin-top: 24px;
+        margin-bottom: 24px;
 }
 
 .main-header-ctas {
     list-style: none;
     display: flex;
     gap: 40px;
+    justify-content: flex-end;
     margin-right: 156px;
+    margin-top: 24px;
+        margin-bottom: 24px;
+}
+
+.section1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.section1-box {
+    color: var(--SLATE, #434455);
+        font-size: 16px;
+        height: 72px;
+        width: 264px;
+        gap: 24px;
+}
+
+.pics {
+    display: flex;
+        justify-content: space-around;
+        margin: 0 156px;
+}
+
+.team1 {
+    list-style: none;
+    display:flex;
+        justify-content: space-around;
+        margin: 0 156px 120px 156px;
+}
+
+h2 {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-size: 36px;
 }
 
 .ctas-link {
@@ -156,14 +198,14 @@ p {
             background: var(--CLOUD, #F4F4FD);
 }
 
-.sub-menu .sub-menu1:hover {
+.sub-menu .sub-1:hover {
     border-radius: 4px;
 background: var(--OCEAN, #404BBF);
 color: var(--WHITE, #FFF);
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-.main-header .main-header-menu-link:hover {
+.main-nav .main-header-menu-link:hover {
     border-radius: 4px;
         background: var(--OCEAN, #404BBF);
         color: var(--WHITE, #FFF);
@@ -179,6 +221,8 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
 
 footer {
     background: var(--NAVY-BLUE, #2E2F42);
+    padding-top: 101.5px;
+    padding-left: 156px;
 }
 
 .footer-text {
@@ -189,6 +233,7 @@ footer {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    padding-bottom: 100px;
 }
 
 footer > h3:hover {
