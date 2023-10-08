@@ -38,6 +38,7 @@ button:hover {
     align-items: center;
     justify-content: space-between;
     height: 72px;
+    width: 1158px;
 }
 
 .main-nav {
@@ -56,7 +57,6 @@ button:hover {
     display: flex;
     gap: 40px;
     justify-content: flex-end;
-    margin-right: 156px;
     margin-top: 24px;
         margin-bottom: 24px;
 }
@@ -181,6 +181,14 @@ p {
     letter-spacing: 0.32px;
 }
 
+.sub-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 120px;
+}
+
 .sub-menu .sub-menu1{
     border-radius: 4px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -198,7 +206,17 @@ p {
             background: var(--CLOUD, #F4F4FD);
 }
 
-.sub-menu .sub-1:hover {
+.container-box {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+.sub-menu .sub-menu1:hover {
     border-radius: 4px;
 background: var(--OCEAN, #404BBF);
 color: var(--WHITE, #FFF);
